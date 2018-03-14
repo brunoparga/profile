@@ -9,68 +9,102 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   </head>
   <body>
-    <div class="card">
-
-      <img src="images/profile.png" alt="A picture of Bruno Parga, smiling" id="profile_pic">
-
-      <h1 id="my-name" class="text-blue font-regular">Bruno Parga</h1>
-
-      <h3 class="sub-header font-light font-highlight">Ruby on Rails web developer; future researcher<br>
-      on the safety of Artificial Intelligence systems</h3>
-
-      <p class="font-regular">After majoring in History, freelancing as a translator, serving at the
-      Brazilian Foreign Ministry as a diplomat and driving for ride-sharing services,
-      I'm pivoting to a programming career.</p>
-
+    <div id="sidebar">
+      <a href="#summary"><div class="btn-sidebar"><i class="fa fa-info-circle"></i></div></a>
+      <a href="#social-media"><div class="btn-sidebar"><i class="fa fa-phone"></i></div></a>
+      <a href="#favorite-things"><div class="btn-sidebar"><i class="fa fa-heart"></i></div></a>
     </div>
-    <div class="card">
+    <div id="page-content">
+      <div class="card" id="summary">
 
-      <ul class="list_horizontal">
-        <li><a href="https://www.linkedin.com/in/brunoparga/" class="font-highlight">
-          <i class="fa fa-linkedin"></i> LinkedIn</a></li>
-        <li><a href="https://github.com/brunoparga/" class="font-highlight">
-          <i class="fa fa-github-alt"></i> GitHub</a></li>
-        <li><a href="https://www.facebook.com/brunoparga" class="font-highlight">
-          <i class="fa fa-facebook-square"></i> Facebook</a></li>
-      </ul>
+        <img src="images/profile.png" class="profile-pic-width" id="profile-pic">
+        <p class="img-description profile-pic-width">
+          {Image: a photo of Bruno Parga, a smiling, bearded man in his thirties,
+          with dark long wavy hair that falls behind his shoulders.}
+        </p>
+        <h1 id="my-name" class="text-blue font-regular">Bruno Parga</h1>
 
-    </div>
-    <div class="card">
-      <h3 id="favorites-header" class="text-blue font-highlight">My favorite things</h3>
-      <table id='table-width'>
-        <tr>
-          <td class="td-width">
-            <img src="images/miri.png" alt="Logo of the Machine Intelligence
-            Research Institute" class="fave-img">
-          </td>
-          <td class="td-width">
-            <h3 class="sub-header font-regular">Rationality</h3>
-            <p class="font-light font-highlight">I love the art of rationality: obtaining better beliefs &mdash; ones that better reflect reality &mdash; and systematically achieving one's goals.</p>
-          </td>
-        </tr>
-        <tr>
-          <td class="td-width">
-            <h3 class="sub-header font-regular">New England Patriots</h3>
-            <p class="font-light font-highlight">The Pats are just the best, Tom Brady is the GOAT, Bill Belichick is God, Robert Kraft is a genius, Gronk is a beast, Jules is bae.
-            <br><br>
-            Also, there was no such thing as Super Bowl LII.</p>
-          </td>
-          <td class="td-width">
-            <img src="images/pats.jpg" alt="Logo of the New England Patriots NFL team" class="fave-img">
-          </td>
-        </tr>
-        <tr>
-          <td class="td-width">
-            <img src="images/departed.jpg" alt="A poster from the movie The Departed,
-            with Leonardo DiCaprio, Jack Nicholson and Matt Damon, all looking very
-            tense" class="fave-img">
-          </td>
-          <td class="td-width">
-            <h3 class="sub-header font-regular">The Departed</h3>
-            <p class="font-light font-highlight">This is an awesome flick, where Leo DiCaprio is an undercover cop and Matt Damon is a Mob mole within the Mass State Police. Then they have to find each other.</p>
-          </td>
-        </tr>
-      </table>
+        <h3 class="sub-header font-light font-highlight">Ruby on Rails web developer; future researcher<br>
+        on the safety of Artificial Intelligence systems</h3>
+
+        <p class="font-regular main-p-padding">After majoring in History, freelancing as a translator, serving at the
+        Brazilian Foreign Ministry as a diplomat and driving for ride-sharing services,
+        I'm pivoting to a programming career.</p>
+        <p class="font-regular main-p-padding">I also have a passion for inclusion &mdash; hence the detailed, non-alt-text descriptions
+        to the images on this page! Apparently, not every browser out there implements the alt-text
+        correctly.
+      </div>
+      <div class="card" id="social-media">
+
+        <ul class="list-horizontal">
+          <li><a href="https://www.linkedin.com/in/brunoparga/" class="font-highlight">
+            <i class="fa fa-linkedin"></i> LinkedIn</a></li>
+          <li><a href="https://github.com/brunoparga/" class="font-highlight">
+            <i class="fa fa-github-alt"></i> GitHub</a></li>
+          <li><a href="https://www.facebook.com/brunoparga" class="font-highlight">
+            <i class="fa fa-facebook-square"></i> Facebook</a></li>
+        </ul>
+
+      </div>
+      <div class="card" id="favorite-things">
+        <h3 id="favorites-header" class="text-blue font-highlight">My favorite things</h3>
+        <table id='table-width'>
+          <tr>
+            <td class="td-width">
+              <img src="images/miri.png" class="fave-img fave-img-width">
+              <p class="img-description fave-img-width">
+                {Image: the logo of the Machine Intelligence Research Institute.
+                Ten stripes rise from a point at the bottom center; their width and
+                spacing increases as one moves up along them; the perspective suggests
+                they turn outward, facing the viewer, forming a semicircular shape.
+                The leftmost one is orange, the second one is green, the rest are
+                blue. Below the stripes is the acronym 'MIRI' in capital blue letters.}
+              </p>
+            </td>
+            <td class="td-width">
+              <h3 class="sub-header font-regular">Rationality</h3>
+              <p class="font-light font-highlight">I love the art of rationality: obtaining better beliefs &mdash; ones that better reflect reality &mdash; and systematically achieving one's goals.</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="td-width">
+              <h3 class="sub-header font-regular">New England Patriots</h3>
+              <p class="font-light font-highlight">The Pats are just the best, Tom Brady is the GOAT, Bill Belichick is God, Robert Kraft is a genius, Gronk is a beast, Jules is bae.
+              <br><br>
+              Also, there was no such thing as Super Bowl LII.</p>
+            </td>
+            <td class="td-width">
+              <img src="images/pats.jpg" class="fave-img fave-img-width">
+              <p class="img-description fave-img-width">
+                {Image: the logo of the American football team, the New England Patriots.
+                In navy blue, the outline of a man's face, filled in gray; the man
+                faces right and wears a large stylized navy blue tricorn hat with a
+                five-pointed white star; to the left, the hat turns into two red
+                stripes, alluding to the American flag. In the background there is
+                an enlarged, more transparent version of the same logo.}
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td class="td-width">
+              <img src="images/departed.jpg" class="fave-img fave-img-width">
+              <p class="img-description fave-img-width">
+                {Image: the poster for the movie "The Departed". The top left quarter
+                has the name of the movie in white; in the background, the Boston
+                skyline, with a heavy red filter. In the top right, bottom left and
+                bottom right quarters, respectively, pictures of actors Leonardo
+                DiCaprio, Jack Nicholson and Matt Damon, in character, with a
+                slight yellowish filter and strong contrast. The men all face
+                different directions; they look focused and tense.}
+              </p>
+            </td>
+            <td class="td-width">
+              <h3 class="sub-header font-regular">The Departed</h3>
+              <p class="font-light font-highlight">This is an awesome flick, where Leo DiCaprio is an undercover cop and Matt Damon is a Mob mole within the Mass State Police. Then they have to find each other.</p>
+            </td>
+          </tr>
+        </table>
+      </div>
     </div>
   </body>
 </html>
