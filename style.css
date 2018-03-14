@@ -1,0 +1,72 @@
+body {
+  text-align: center;
+  background-color: rgb(230, 230, 230);
+}
+
+#my-name {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.font-regular {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+}
+
+.font-highlight {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+}
+
+.text-blue {
+  color: midnightblue;
+}
+
+.card {
+  border-radius: 4px;
+  background-color: white;
+  width: 800px;
+  margin: 10px auto;
+  padding: 20px;
+}
+
+#profile_pic {
+  height: 300px;
+  width: 300px;
+  border-radius: 150px;
+}
+
+.sub-header {
+  color: dimgray;
+  font-style: italic;
+}
+
+.font-light {
+  font-weight: 200;
+}
+
+.td-width {
+  width: 300px;
+}
+
+.fave-img {
+  width: 300px;
+  border-radius: 3px;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+#table-width {
+  width: 640px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.list_horizontal li {
+  display: inline;
+  list-style-type: none;
+  padding: 0 20px;
+}
