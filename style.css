@@ -27,6 +27,7 @@ body {
 
 .btn-sidebar:hover {
   background-color: rgba(50, 50, 224, 0.8);
+  border-radius: 20%;
 }
 
 #page-content {
