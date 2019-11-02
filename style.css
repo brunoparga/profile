@@ -1,37 +1,10 @@
 body {
   text-align: center;
-  background-color: rgb(230, 230, 230);
-}
-
-#sidebar {
-  position: fixed;
-  width: 100px;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  background-color: rgba(25, 25, 112, 0.95);
-}
-
-.btn-sidebar {
-  width: 70px;
-  height: 70px;
-  margin: 35px auto;
-  color: rgb(230, 230, 230);
-  font-size: 50px;
-}
-
-.btn-sidebar i {
-  line-height: 70px;
-  vertical-align: middle;
-}
-
-.btn-sidebar:hover {
-  background-color: rgba(50, 50, 224, 0.8);
-  border-radius: 20%;
+  background-color: rgb(190, 180, 200);
 }
 
 #page-content {
-  margin-left: 100px;
+  margin: auto;
 }
 
 #my-name {
@@ -57,8 +30,8 @@ body {
   margin: 5px auto;
 }
 
-.text-blue {
-  color: midnightblue;
+.text-color {
+  color: rgb(90, 0, 140);
 }
 
 .main-p-padding {
@@ -80,6 +53,10 @@ body {
 
 .profile-pic-width {
   width: 300px;
+}
+
+h3 {
+  margin: 5px;
 }
 
 .sub-header {
@@ -113,6 +90,7 @@ body {
 
 a {
   text-decoration: none;
+  color: rgb(90, 0, 140);
 }
 
 .list-horizontal li {
