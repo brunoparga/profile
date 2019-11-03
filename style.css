@@ -78,7 +78,8 @@ h3 {
 }
 
 #projects {
-  border: 3px solid rgb(90, 0, 140)
+  border: 8px solid rgb(90, 0, 140);
+  width: 784px;
 }
 
 .screenshot {
