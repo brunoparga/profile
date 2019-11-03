@@ -121,6 +121,7 @@ a {
 .list-horizontal li {
   display: inline;
   list-style-type: none;
+  padding: 0 20px;
 }
 
 .i-valign {
