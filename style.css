@@ -38,9 +38,18 @@ body {
   padding: 10px 30px;
 }
 
+p {
+  text-align: justify;
+}
+
+.presentation {
+  width: 75%;
+  margin: auto;
+}
+
 .card {
-  border-radius: 4px;
-  background-color: white;
+  border-radius: 15px;
+  background-color: #fffff8;
   width: 800px;
   margin: 10px auto;
   padding: 20px;
@@ -48,7 +57,7 @@ body {
 
 #profile-pic {
   height: 300px;
-  border-radius: 150px;
+  border-radius: 75px;
 }
 
 .profile-pic-width {
@@ -68,6 +77,23 @@ h3 {
   font-weight: 200;
 }
 
+#projects {
+  border: 3px solid rgb(90, 0, 140)
+}
+
+.screenshot {
+  height: 150px;
+}
+
+.project {
+  display: flex;
+  align-items: center;
+}
+
+.project-info {
+  padding: 0 15px;
+}
+
 .td-width {
   width: 300px;
   padding: 20px;
@@ -76,7 +102,6 @@ h3 {
 .fave-img {
   border-radius: 3px;
   padding: 10px;
-  margin: 20px 0;
 }
 
 .fave-img-width {
@@ -96,7 +121,6 @@ a {
 .list-horizontal li {
   display: inline;
   list-style-type: none;
-  padding: 0 20px;
 }
 
 .i-valign {
