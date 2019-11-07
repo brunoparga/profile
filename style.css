@@ -89,6 +89,19 @@ h3 {
 .project {
   display: flex;
   align-items: center;
+  margin-bottom: 25px;
+}
+
+.project:last-child {
+  margin-bottom: 0;
+}
+
+.wip {
+  display: flex;
+}
+
+.wip .project-info {
+  flex: 1 1 0px;
 }
 
 .project-info {
