@@ -141,6 +141,10 @@ a {
   color: rgb(90, 0, 140);
 }
 
+.list-horizontal {
+  text-align: center;
+}
+
 .list-horizontal li {
   display: inline;
   list-style-type: none;
