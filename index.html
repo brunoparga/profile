@@ -2,7 +2,7 @@
   <head>
     <meta charset="utf-8">
 
-    <title>Bruno Parga, Web developer</title>
+    <title>Bruno Parga, Web Developer</title>
 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Oswald:200,400"
       rel="stylesheet">
@@ -23,7 +23,7 @@
           Web developer, coding bootcamp instructor
         </h3>
         <h3 class="sub-header font-light font-highlight">
-          Ruby on Rails, Node.js/Express, Elixir/Phoenix
+          React, NodeJS+Express, Rails, Elixir+Phoenix
         </h3>
 
         <div class="presentation">
@@ -41,14 +41,36 @@
       </div>
 
       <div class="card" id="projects">
+        <h3 class="sub-header font-regular">Cicero</h3>
+        <div class="project">
+          <a href="https://bp-cicero.xyz/">
+            <img src="images/cicero.png" alt="A screenshot of the Cicero website"
+              class="screenshot">
+          </a>
+          <div class="project-info">
+            <p class="font-highlight font-light">
+              Cicero is a Latin language learning app. It is based on the list
+              of the ~1500 most common words found in Classical Latin texts.
+              As you learn, it will remember which words you've already studied
+              and present them for review.
+            <br>
+              <a href="https://gitlab.com/brunoparga/cicero-server">Back-end</a>
+              developed with Express.js in plain JavaScript;
+              <a href="https://gitlab.com/brunoparga/cicero-server">front-end</a>
+              in React with TypeScript. I decided, as an experiment, to use the
+              Context hook of React exclusively, in lieu of Redux, for app
+              state management.
+            </p>
+          </div>
+        </div>
         <h3 class="sub-header font-regular">Words</h3>
         <div class="project">
           <div class="project-info">
             <p class="font-highlight font-light">
-              In this game, you are presented with a series of letters. You must
-              find the longest word you can with them. But it may also be in your
-              interest to form a short word like <em>hex</em>, since rare letters
-              like X score more points...
+              In this game, you are presented with a series of letters. You
+              must find the longest word you can with them. But it may also be
+              a good move to form a short word like <em>hex</em>, since rare
+              letters like X score more points...
             <br>
               Developed with Node.js, Express and the Pug templating engine.
             </p>
@@ -58,6 +80,12 @@
               class="screenshot">
           </a>
         </div>
+      </div>
+
+      <div class="card" id="open-source">
+        <h2 id="favorites-header" class="text-color font-highlight">
+          Contributions to open source projects
+        </h2>
         <h3 class="sub-header font-regular">PredictionBook</h3>
         <div class="project">
           <a href="https://predictionbook.com/">
@@ -66,40 +94,54 @@
           </a>
           <div class="project-info">
             <p class="font-highlight font-light">
-              An open source Web app to record and track predictions.
+              A Web app to record and track predictions.
             <br>
               On top of several maintenance activities I've performed for this
               Ruby on Rails/PostgreSQL project, I have introduced the filtering
               tool that allows users to see only predictions that have already
               resolved as right or wrong, or only those still in the future.
-            <br>
-              Further improvements to the app are planned...
             </p>
           </div>
         </div>
-        <h3 class="sub-header font-regular">Coming soon...</h3>
-        <div class="project wip">
+        <h3 class="sub-header font-regular">ActivityWatch</h3>
+        <div class="project">
           <div class="project-info">
             <p class="font-highlight font-light">
-              <strong>SuperDuperStore:</strong> A Udemy course project, polished
-              and refactored and transformed to take on a personal look.<br>
-              Uses Node.js, Express and MongoDB.
+              A time-tracking/lifelogging app.
+              <br>
+              I have restored the VS Codium extension ("watcher") to
+              functionality, so that I can use it myself 😊. This required a fix
+              to its JavaScript client as well.
+            </p>
+          </div>
+          <a href="https://activitywatch.net/">
+            <img src="images/activitywatch.png" alt="A screenshot of the ActivityWatch website"
+              class="screenshot">
+          </a>
+        </div>
+        <div class="project no-screenshot">
+          <div class="project-info">
+            <p class="font-highlight font-light">
+              <strong>react-combine-reducers:</strong> A small library
+              providing the same functionality as the
+              <code>combineReducers</code> utility from Redux, but designed for
+              use in Redux-less apps. I replaced a deprecated dependency from
+              this package with a more modern one. I also provided the only
+              tests present in the project.
             </p>
           </div>
           <div class="project-info">
             <p class="font-highlight font-light">
-              <strong>MobyLetty:</strong> An implementation of Z-Man Games' <em>
-                Love Letter</em> written in Elixir. It is a work in progress; or
-                maybe it is a work that will progress once the other projects
-                finish. It will get a Phoenix-powered Web app, perhaps with a
-                React front-end.
+              <strong>coc-eslint:</strong> Integrate Eslint linter with Vim
+              text editor by means of Coc NodeJS interface. I contributed
+              documentation to this project.
             </p>
           </div>
         </div>
       </div>
 
       <div class="card" id="interests">
-        <h3 id="favorites-header" class="text-color font-highlight">Some of my interests</h3>
+        <h2 id="favorites-header" class="text-color font-highlight">Some of my interests</h3>
         <table id='table-width'>
           <tr>
             <td class="td-width">
@@ -147,8 +189,13 @@
             </a>
           </li>
           <li>
-            <a href="mailto:brunoparga@gmail.com" class="font-highlight">
-              <i class="fa fa-envelope-square i-valign"></i>&nbsp;brunoparga at gmail dot com
+            <a href="https://github.com/brunoparga/" class="font-highlight">
+              <i class="fa fa-gitlab-square i-valign"></i>&nbsp;GitLab
+            </a>
+          </li>
+          <li>
+            <a href="mailto:contact@brunoparga.net" class="font-highlight">
+              <i class="fa fa-envelope-square i-valign"></i>&nbsp;contact at brunoparga dot net
             </a>
           </li>
           <li>

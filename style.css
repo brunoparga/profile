@@ -105,11 +105,11 @@ ul {
   margin-bottom: 0;
 }
 
-.wip {
+.no-screenshot {
   display: flex;
 }
 
-.wip .project-info {
+.no-screenshot .project-info {
   flex: 1 1 0px;
 }
 
