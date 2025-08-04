@@ -16,16 +16,5 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `Bruno Parga Portfolio`,
-        short_name: `Bruno Parga`,
-        start_url: `/`,
-        background_color: `#beb4c8`,
-        theme_color: `#5a008c`,
-        display: `minimal-ui`,
-      },
-    },
   ],
 } 
